@@ -1,9 +1,15 @@
 body {
   margin: 0px;
+  font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
 }
 
 .preto {
-  background-color: black;
+  background-color: rgb(250, 213, 213);
 }
 
 .rosa {
@@ -24,4 +30,17 @@ body {
 
 .grande {
   height: 300px;
+}
+
+/* navigation */
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  width: 245px;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }

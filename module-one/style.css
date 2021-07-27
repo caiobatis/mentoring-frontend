@@ -8,10 +8,6 @@ body {
   margin: auto;
 }
 
-.preto {
-  background-color: rgb(250, 213, 213);
-}
-
 .rosa {
   background-color: pink;
 }
@@ -32,6 +28,39 @@ body {
   height: 300px;
 }
 
+.organiza-topo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.acao {
+  width: 245px;
+  text-align: right;
+}
+
+.azul-escuro {
+  background-color: #111B47;
+  color: white;
+}
+
+.borda-arredondada {
+  border-radius: 2px;
+}
+
+.btn {
+  border: none;
+  padding: 0;
+  font-family: Roboto;
+}
+
+.btn-medio {
+  width: 160px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
 /* navigation */
 
 .nav {
@@ -41,6 +70,4 @@ body {
   display: flex;
   width: 245px;
   justify-content: space-between;
-  align-items: center;
-  height: 100%;
 }

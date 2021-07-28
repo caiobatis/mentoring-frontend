@@ -13,15 +13,11 @@ body {
 }
 
 .cinza {
-  background-color: gray;
+  background-color: #FBFBFB;
 }
 
 .pequeno {
   height: 70px;
-}
-
-.medio {
-  height: 120px;
 }
 
 .grande {
@@ -30,9 +26,22 @@ body {
 
 .organiza-topo {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   height: 100%;
-  justify-content: space-between;
+}
+
+.organiza-meio {
+  display: flex;
+}
+
+.ilustracao {
+  display: flex;
+  align-items: center;
+}
+
+.ilustracao img {
+  width: 540px;
 }
 
 .acao {
@@ -62,7 +71,6 @@ body {
 }
 
 /* navigation */
-
 .nav {
   margin: 0;
   padding: 0;
@@ -70,4 +78,45 @@ body {
   display: flex;
   width: 245px;
   justify-content: space-between;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.meio {
+  height: 638px;
+}
+
+.rodape {
+  height: 216px;
+}
+
+.media {
+  width: 30px;
+  height: 30px;
+  background: #ccc;
+  margin-left: 1px;
+}
+
+.social-media {
+  display: flex;
+}
+
+.organiza-rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rodape .organiza-rodape:last-child {
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+
+.organiza-rodape:first-child {
+  padding-top: 60px;
+  padding-bottom: 40px;
 }

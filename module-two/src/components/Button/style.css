@@ -1,0 +1,31 @@
+.btn {
+  margin: 0;
+  padding: 9px 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: Roboto;
+  min-width: 120px;
+  font-size: 16px;
+}
+
+.btn-blue {
+  background: #111B47;
+  color: #fff;
+}
+
+.btn-red {
+  background: #972b10;
+  color: #fff;
+}
+
+.btn-large {
+  min-width: 160px;
+  font-size: 18px;
+}
+
+.btn-small {
+  min-width: 80px;
+  font-size: 13px;
+}

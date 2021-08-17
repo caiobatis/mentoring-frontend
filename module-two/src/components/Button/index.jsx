@@ -1,13 +1,15 @@
 import React from 'react'
 import './style.css'
 
-const Button = (props) => {
-  console.log(props)
+const onClick = ()=> {
+  console.log('cliquei no botao do lucas')
+}
 
+const Button = (props) => {
   const {color, size} = props
 
   return (
-    <button className={`btn btn-${color} btn-${size}`}>
+    <button onClick={onClick} className={`btn btn-${color} btn-${size}`}>
       meu botao
     </button>
   )

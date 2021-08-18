@@ -6,11 +6,11 @@ const onClick = ()=> {
 }
 
 const Button = (props) => {
-  const {color, size} = props
+  const {color, size, children, onClick} = props
 
   return (
     <button onClick={onClick} className={`btn btn-${color} btn-${size}`}>
-      meu botao
+      {children}
     </button>
   )
 }

@@ -3,7 +3,7 @@ import React, { useState, Fragment } from 'react'
 import Navigation from '../Navigation'
 import MobileButton from '../MobileButton'
 
-import './style.css'
+import './style.scss'
 
 
 const Header = (props) => {
